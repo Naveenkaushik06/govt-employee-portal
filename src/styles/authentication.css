@@ -1,0 +1,22 @@
+.password-toggle-icon {
+    position: absolute;
+    top: 52%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin-right: 50px;
+  }
+  .password-toggle-icon i {
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+.signin-container{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(85, 133, 151), rgb(124, 177, 172));
+  }
+  .form-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
