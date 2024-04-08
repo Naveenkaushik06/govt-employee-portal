@@ -5,6 +5,7 @@ const Planforthenextday = () => {
     <div>
       <div className="pt-10 pl-5 pr-5">
         <table>
+          <thead>
           <tr>
             <th className="text-center">S.N</th>
             <th className="text-center">Project Title</th>
@@ -14,6 +15,8 @@ const Planforthenextday = () => {
             <th className="text-center">Assigned by</th>
             <th className="text-center">Project Status</th>
           </tr>
+          </thead>
+          <tbody>
           <tr>
             <td className="text-center">1.</td>
             <td className="text-center">Project Title 1</td>
@@ -59,6 +62,7 @@ const Planforthenextday = () => {
             <td className="text-center">.....</td>
             <td className="text-center">.....</td>
           </tr>
+          </tbody>
         </table>
       </div>
     </div>
